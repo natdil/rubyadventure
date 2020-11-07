@@ -7786,7 +7786,7 @@ PrefabInstance:
     - target: {fileID: 5577902991242017978, guid: 3ffb60d0c0b71d2498aa7b463c39fd41,
         type: 3}
       propertyPath: m_Name
-      value: CollectibleHealth
+      value: CollectibleHealth 5
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3ffb60d0c0b71d2498aa7b463c39fd41, type: 3}
