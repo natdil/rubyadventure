@@ -27,8 +27,8 @@ public class Projectile : MonoBehaviour
         Projectile projectile = projectileObject.GetComponent<Projectile>();
         projectile.Launch(lookDirection, 300);
 
-    animator.SetTrigger("Launch");
-}
+        animator.SetTrigger("Launch");
+    }
     // Update is called once per frame
     void Update()
     {
