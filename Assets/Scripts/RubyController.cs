@@ -27,9 +27,9 @@ using UnityEngine;
         lookDirection.Normalize();
     }
         
-animator.SetFloat("Look X", lookDirection.x);
-animator.SetFloat("Look Y", lookDirection.y);
-animator.SetFloat("Speed", move.magnitude);
+    animator.SetFloat("Look X", lookDirection.x);
+    animator.SetFloat("Look Y", lookDirection.y);
+    animator.SetFloat("Speed", move.magnitude);
 
     Animator animator;
     Vector2 lookDirection = new Vector2(1,0);
