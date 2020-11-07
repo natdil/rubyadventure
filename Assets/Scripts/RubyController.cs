@@ -18,10 +18,12 @@ using UnityEngine;
     Rigidbody2D rigidbody2d;
     float horizontal;
     float vertical;
-    
-    // Start is called before the first frame update
-    void Start()
-    {
+    Animator animator;
+Vector2 lookDirection = new Vector2(1,0);
+
+void Start()
+{
+    animator = GetComponent<Animator>();
         rigidbody2d = GetComponent<Rigidbody2D>();
         currentHealth = maxHealth;
     }
