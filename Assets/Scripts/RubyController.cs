@@ -13,6 +13,7 @@ public class RubyController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        Vector2 position = transform.position;
+        position
     }
 }
