@@ -5,3 +5,4 @@ using UnityEngine;
 public class HealthCollectible : MonoBehaviour
 {
   
+}
