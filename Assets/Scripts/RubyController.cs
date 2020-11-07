@@ -14,7 +14,7 @@ public class RubyController : MonoBehaviour
     float vertical;
     
     // Start is called before the first frame update
-    void Start()
+      void Start()
     {
         rigidbody2d = GetComponent<Rigidbody2D>();
         currentHealth = maxHealth;
@@ -42,5 +42,6 @@ public class RubyController : MonoBehaviour
         currentHealth = Mathf.Clamp(currentHealth + amount, 0, maxHealth);
         Debug.Log(currentHealth + "/" + maxHealth);
     }
+
 }
 
