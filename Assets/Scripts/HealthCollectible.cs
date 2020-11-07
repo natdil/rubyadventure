@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class HealthCollectible : MonoBehaviour
 {
+    
 
 
 
@@ -13,6 +14,5 @@ public class HealthCollectible : MonoBehaviour
 
 
 
- 
-  
+
 }
