@@ -17,7 +17,7 @@ using UnityEngine;
     
     Rigidbody2D rigidbody2d;
     float horizontal = Input.GetAxis("Horizontal");
-float vertical = Input.GetAxis("Vertical");
+    float vertical = Input.GetAxis("Vertical");
                 
 Vector2 move = new Vector2(horizontal, vertical);
         
