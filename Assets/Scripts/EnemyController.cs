@@ -13,8 +13,8 @@ public class EnemyController : MonoBehaviour
     int direction = 1;
     Animator animator;
 
-void Start()
-{
+    void Start()
+    {
      rigidbody2D = GetComponent<Rigidbody2D>();
      timer = changeTime;
      animator = GetComponent<Animator>();
