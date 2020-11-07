@@ -21,7 +21,7 @@ using UnityEngine;
     Animator animator;
 Vector2 lookDirection = new Vector2(1,0);
 
-void Start()
+    void Start()
     {
     animator = GetComponent<Animator>();
         rigidbody2d = GetComponent<Rigidbody2D>();
