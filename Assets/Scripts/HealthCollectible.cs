@@ -10,7 +10,7 @@ void OnTriggerEnter2D(Collider2D other)
 
      if (controller != null)
      {
-          if(controller.currentHealth < controller.maxHealth)
+          if(controller.health < controller.maxHealth)
           {
 	       controller.ChangeHealth(1);
 	       Destroy(gameObject);
