@@ -7,7 +7,7 @@ public class RubyController : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
+        QualitySettings.vSyncCount
     }
 
     // Update is called once per frame
