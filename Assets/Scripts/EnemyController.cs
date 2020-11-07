@@ -15,9 +15,9 @@ public class EnemyController : MonoBehaviour
 
     void Start()
     {
-     rigidbody2D = GetComponent<Rigidbody2D>();
-     timer = changeTime;
-     animator = GetComponent<Animator>();
+        rigidbody2D = GetComponent<Rigidbody2D>();
+        timer = changeTime;
+        animator = GetComponent<Animator>();
     }
 
 
