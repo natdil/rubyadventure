@@ -14,9 +14,15 @@ public class NonPlayerCharacter : MonoBehaviour
         dialogBox.SetActive(false);
         timerDisplay = -1.0f;
     }
-    // Update is called once per frame
     void Update()
+{
+    if (timerDisplay >= 0)
     {
-        
+        timerDisplay -= Time.deltaTime;
+        if (timerDisplay < 0)
+        {
+            dialogBox.SetActive(false);
+        }
     }
+}
 }
