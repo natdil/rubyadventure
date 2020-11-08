@@ -8,7 +8,7 @@ using UnityEngine;
     public bool vertical;
     public float changeTime = 3.0f;
 
-    Rigidbody2D;
+    Rigidbody2D rigidbody2D;
     float timer;
     int direction = 1;
     bool broken = true;
