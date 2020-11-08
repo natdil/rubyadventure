@@ -57,9 +57,9 @@ public class RubyController : MonoBehaviour
         }
 
         if(Input.GetKeyDown(KeyCode.C))
-{
-   Launch();
-}
+        {
+            Launch();
+        }
     }
     
     void FixedUpdate()
