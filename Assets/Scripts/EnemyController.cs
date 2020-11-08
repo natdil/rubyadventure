@@ -55,8 +55,8 @@ public class EnemyController : MonoBehaviour
 
     public void Fix()
     {
-    broken = false;
-    rigidbody2D.simulated = false;
+        broken = false;
+        rigidbody2D.simulated = false;
     }
     
     void OnCollisionEnter2D(Collision2D other)
