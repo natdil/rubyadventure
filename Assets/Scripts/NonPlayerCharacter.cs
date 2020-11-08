@@ -12,7 +12,7 @@ public class NonPlayerCharacter : MonoBehaviour
     void Start()
     {
         dialogBox.SetActive(false);
-        t   imerDisplay = -1.0f;
+        timerDisplay = -1.0f;
 }
     // Update is called once per frame
     void Update()
