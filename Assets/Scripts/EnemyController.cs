@@ -57,7 +57,7 @@ public class EnemyController : MonoBehaviour
     {
     broken = false;
     rigidbody2D.simulated = false;
-}
+    }
     
     void OnCollisionEnter2D(Collision2D other)
     {
