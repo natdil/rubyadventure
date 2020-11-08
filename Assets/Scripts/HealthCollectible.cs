@@ -10,7 +10,7 @@ public class HealthCollectible : MonoBehaviour
 
         if (controller != null)
         {
-            deb
+            Debug.log("I see you");
             if(controller.health < controller.maxHealth)
             {
                 controller.ChangeHealth(1);
