@@ -55,7 +55,7 @@ public class EnemyController : MonoBehaviour
 
     public void Fix()
     {
-        broken = false;
+        //broken = false;
         rigidbody2D.simulated = false;
     }
     
