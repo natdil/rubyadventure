@@ -52,8 +52,9 @@ public class EnemyController : MonoBehaviour
         
         rigidbody2D.MovePosition(position);
     }
+
     public void Fix()
-{
+    {
     broken = false;
     rigidbody2D.simulated = false;
 }
