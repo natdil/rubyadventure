@@ -32,7 +32,7 @@ public class Projectile : MonoBehaviour
         Projectile projectile = projectileObject.GetComponent<Projectile>();
         projectile.Launch(lookDirection, 300);
  
-        // This should be "Launch" also you are not using ascii double quotes so copy and paste has a special “ instead of the asicii " one so visual studio gets upset.
+        
         animator.SetTrigger(“Lauch”);
     }
     
