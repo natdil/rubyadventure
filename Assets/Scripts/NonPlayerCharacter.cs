@@ -1,7 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using 
+using UI
 
 public class NonPlayerCharacter : MonoBehaviour
 {
