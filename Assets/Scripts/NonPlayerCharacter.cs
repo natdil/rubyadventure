@@ -6,8 +6,8 @@ using UnityEngine.UI;
 public class NonPlayerCharacter : MonoBehaviour
 {
     public float displayTime = 4.0f;
-public GameObject dialogBox;
-float timerDisplay;
+    public GameObject dialogBox;
+    float timerDisplay;
     void Start()
     {
         
