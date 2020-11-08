@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-ppublic class RubyController : MonoBehaviour
+public class RubyController : MonoBehaviour
 {
     public float speed = 3.0f;
     
