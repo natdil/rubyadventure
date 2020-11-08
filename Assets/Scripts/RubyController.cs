@@ -68,7 +68,7 @@ public class RubyController : MonoBehaviour
         if (hit.collider != null)
         {
         Debug.Log("Raycast has hit the object " + hit.collider.gameObject);
-     }
+             }
         }
     }
     
