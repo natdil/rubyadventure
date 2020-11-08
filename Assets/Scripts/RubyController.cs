@@ -58,7 +58,7 @@ public class RubyController : MonoBehaviour
 
         if(Input.GetKeyDown(KeyCode.C))
         {
-            Launch(lookDirection,300);
+            Launch();
         }
     }
     
