@@ -27,7 +27,7 @@ public class Projectile : MonoBehaviour
 
     void Launch()
     {
-        Input.
+        Input.GetKeyDown("C");
     }
     
     void OnCollisionEnter2D(Collision2D other)
