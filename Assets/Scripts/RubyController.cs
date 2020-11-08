@@ -128,7 +128,7 @@ public class RubyController : MonoBehaviour
         audioSource.PlayOneShot(clip);
     }
     if (Input.GetKey("escape"))
-{
-Application.Quit();
+    {
+    Application.Quit();
 }
 }
