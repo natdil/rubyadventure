@@ -89,6 +89,6 @@ public class EnemyController : MonoBehaviour
         animator.SetTrigger("Fixed");
         
         smokeEffect.Stop();
-        DestroyImmediate.smokeEffect(smokeEffect)
+        DestroyImmediate.smokeEffect(smokeEffect, true);
     }
 }
