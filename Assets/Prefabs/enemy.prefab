@@ -187,6 +187,11 @@ PrefabInstance:
       propertyPath: looping
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 5496125291468275921, guid: 0b9da66922b00e64eaf3c665e053e393,
+        type: 3}
+      propertyPath: stopAction
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5496125291468275922, guid: 0b9da66922b00e64eaf3c665e053e393,
         type: 3}
       propertyPath: m_LocalPosition.x
