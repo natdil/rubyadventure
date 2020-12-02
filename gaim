@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 source .ucf/.env
-version=14
+version=16
 host=plato.mrl.ai:8081
 
 repourl=`git remote get-url origin` && len=`expr ${#repourl} - 4` && repository=`echo ${repourl} | cut -c29-$len`
@@ -209,7 +209,7 @@ EOF
     branch=`git branch --show-current`
     if [[ ! -z $branch && $branch = 'master' ]]; then
       git add -A
-      git commit -m "Error: Not on working"
+      git commit -m "Error: on master"
       git checkout working
       git add -A
       git commit -m "Working"
@@ -236,11 +236,11 @@ EOF
         git push
       fi
       git checkout master
-      git merge --squash -X theirs working 
+      git merge --squash -X theirs $branch 
       dt=$(date '+%d/%m/%Y %H:%M:%S'); 
       git commit -m " submission on $dt"
       git push
-      git checkout working
+      git checkout $branch
     fi
   fi
   exit 0
