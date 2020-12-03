@@ -16,5 +16,8 @@ public class FixedRobotText : MonoBehaviour
         
     }
 
-    public void 
+    public void UpdateText()
+    {
+        
+    }
 }
