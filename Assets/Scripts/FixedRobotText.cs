@@ -18,6 +18,6 @@ public class FixedRobotText : MonoBehaviour
 
     public void UpdateText()
     {
-        
+        this.te
     }
 }
