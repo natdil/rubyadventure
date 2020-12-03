@@ -18,10 +18,4 @@ public class FixedRobotText : MonoBehaviour
     {
         FixedText.text = "Robots are fixed yo" + fixedRobots;   
     }
-
-    public void UpdateText()
-    {
-        
-        FixedText.text = "Robots are fixed yo" + fixedRobots;
-    }
 }
