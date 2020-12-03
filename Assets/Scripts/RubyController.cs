@@ -8,6 +8,8 @@ public class RubyController : MonoBehaviour
     public float speed = 3.0f;
     
     public int maxHealth = 5;
+
+    public int 
     
     public GameObject projectilePrefab;
     
@@ -122,7 +124,7 @@ public class RubyController : MonoBehaviour
 
     public void ChangeScore(int amount)
     {
-        
+
     }
     
     void Launch()
