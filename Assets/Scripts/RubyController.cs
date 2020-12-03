@@ -124,7 +124,7 @@ public class RubyController : MonoBehaviour
 
     public void ChangeScore(int amount)
     {
-
+        
     }
     
     void Launch()
