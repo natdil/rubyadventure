@@ -37,6 +37,8 @@ public class Projectile : MonoBehaviour
         {
             h.Fix();
         }
+
+        FixedText.
     
         Destroy(gameObject);
     }
