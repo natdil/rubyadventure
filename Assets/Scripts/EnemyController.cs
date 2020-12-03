@@ -108,6 +108,6 @@ public class EnemyController : MonoBehaviour
         //optional if you added the fixed animation
         animator.SetTrigger("Fixed");
         smokeEffect.Stop();
-        rubyController.
+        rubyController.chan
     }
 }
