@@ -106,7 +106,7 @@ MonoBehaviour:
   throwSound: {fileID: 8300000, guid: 3624f69d4b22bdd42860eecbb359eabf, type: 3}
   hitSound: {fileID: 8300000, guid: 4fd5c22b7b3ff4442b71cc525ebda32f, type: 3}
   timeInvincible: 2
-  damageEffect: {fileID: 0}
+  damageEffect: {fileID: 5438228644634266034}
 --- !u!50 &803899377543589138
 Rigidbody2D:
   serializedVersion: 4
@@ -245,6 +245,12 @@ PrefabInstance:
 --- !u!4 &5438228644634266037 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 5799315680650279845, guid: 813fcd6e4216c2242b173d58e09ecc20,
+    type: 3}
+  m_PrefabInstance: {fileID: 1946459666632716816}
+  m_PrefabAsset: {fileID: 0}
+--- !u!198 &5438228644634266034 stripped
+ParticleSystem:
+  m_CorrespondingSourceObject: {fileID: 5799315680650279842, guid: 813fcd6e4216c2242b173d58e09ecc20,
     type: 3}
   m_PrefabInstance: {fileID: 1946459666632716816}
   m_PrefabAsset: {fileID: 0}
