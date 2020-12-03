@@ -42,7 +42,7 @@ public class Projectile : MonoBehaviour
 
             
         Destroy(gameObject);
-        fixedCount ++;
+        fixedCount += 1;
         FixedText.text = "Fixed Robots: " ;
     }
 }
