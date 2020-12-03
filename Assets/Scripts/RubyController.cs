@@ -110,7 +110,7 @@ public class RubyController : MonoBehaviour
             invincibleTimer = timeInvincible;
             
             PlaySound(hitSound);
-            damageEffect.startColor()
+            damageEffect.Start
         }
         
         currentHealth = Mathf.Clamp(currentHealth + amount, 0, maxHealth);
