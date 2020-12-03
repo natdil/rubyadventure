@@ -38,7 +38,7 @@ public class Projectile : MonoBehaviour
             h.Fix();
         }
 
-        FixedText.
+        FixedText.fixedRobots = FixedText.fixedRobots + 1;
     
         Destroy(gameObject);
     }
