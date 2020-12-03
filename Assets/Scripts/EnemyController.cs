@@ -12,6 +12,7 @@ public class EnemyController : MonoBehaviour
 
     public ParticleSystem smokeEffect;
     
+    
     Rigidbody2D rigidbody2D;
     float timer;
     int direction = 1;
