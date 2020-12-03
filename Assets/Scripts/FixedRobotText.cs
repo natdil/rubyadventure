@@ -5,7 +5,7 @@ using UnityEngine.UI;
 
 public class FixedRobotText : MonoBehaviour
 {
-    public Text FixedRobotText;
+    public Text FixedText;
     // Start is called before the first frame update
     void Start()
     {
@@ -20,6 +20,6 @@ public class FixedRobotText : MonoBehaviour
 
     public void UpdateText(int fixedRobots)
     {
-        FixedRobotText.text = "Robots are fixed yo";
+        FixedText.text = "Robots are fixed yo";
     }
 }
