@@ -9,6 +9,8 @@ public class RubyController : MonoBehaviour
     
     public int maxHealth = 5;
 
+    public Text fixedRobotsText;
+
     public int currentScore;
     
     public GameObject projectilePrefab;
@@ -125,7 +127,7 @@ public class RubyController : MonoBehaviour
     public void ChangeScore(int amount)
     {
         currentScore = currentScore + 1;
-        
+
     }
     
     void Launch()
