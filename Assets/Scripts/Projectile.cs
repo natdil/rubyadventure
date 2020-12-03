@@ -6,8 +6,6 @@ using UnityEngine.UI;
 public class Projectile : MonoBehaviour
 {
     Rigidbody2D rigidbody2d;
-    public Text FixedText;
-    int fixedCount;
     
     void Awake()
     {
