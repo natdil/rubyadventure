@@ -41,5 +41,6 @@ public class Projectile : MonoBehaviour
             
         Destroy(gameObject);
         
+        FixedText.fixedRobots = FixedText.fixedRobots + 1;
     }
 }
