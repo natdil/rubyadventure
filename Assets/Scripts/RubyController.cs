@@ -120,7 +120,10 @@ public class RubyController : MonoBehaviour
         UIHealthBar.instance.SetValue(currentHealth / (float)maxHealth);
     }
 
-    public 
+    public void ChangeScore()
+    {
+        
+    }
     
     void Launch()
     {
