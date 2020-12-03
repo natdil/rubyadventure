@@ -3085,6 +3085,7 @@ GameObject:
   - component: {fileID: 993492125}
   - component: {fileID: 993492127}
   - component: {fileID: 993492126}
+  - component: {fileID: 993492128}
   m_Layer: 5
   m_Name: HealthBar
   m_TagString: Untagged
@@ -3149,6 +3150,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 993492124}
   m_CullTransparentMesh: 0
+--- !u!114 &993492128
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 993492124}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 27c0dbb92e15be54485bc9ecaa6ef4ac, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mask: {fileID: 0}
 --- !u!1001 &1056525784
 PrefabInstance:
   m_ObjectHideFlags: 0
