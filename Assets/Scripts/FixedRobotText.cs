@@ -21,6 +21,7 @@ public class FixedRobotText : MonoBehaviour
 
     public void UpdateText()
     {
+        fixedRobots = fixedRobots + 1
         FixedText.text = "Robots are fixed yo";
     }
 }
