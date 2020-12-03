@@ -119,6 +119,8 @@ public class RubyController : MonoBehaviour
         
         UIHealthBar.instance.SetValue(currentHealth / (float)maxHealth);
     }
+
+    
     
     void Launch()
     {
