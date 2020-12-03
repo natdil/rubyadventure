@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 3424179759812029261}
   - component: {fileID: 3424179759812029260}
   - component: {fileID: 3308452363426660495}
-  - component: {fileID: 7639994803360064930}
+  - component: {fileID: 1829302745496434047}
   m_Layer: 0
   m_Name: enemy
   m_TagString: Untagged
@@ -153,7 +153,7 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
---- !u!114 &7639994803360064930
+--- !u!114 &1829302745496434047
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -162,13 +162,13 @@ MonoBehaviour:
   m_GameObject: {fileID: 3424179759812029263}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4b42e6aa9ab298841b05fbc20c7fa879, type: 3}
+  m_Script: {fileID: 11500000, guid: 547725331c9e8bf4b8d8cbc954e418ab, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 3
+  speed: 0
   vertical: 0
   changeTime: 3
-  smokeEffect: {fileID: 1766186728597583317}
+  smokeEffect: {fileID: 0}
 --- !u!1001 &6108263927652594948
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -256,12 +256,6 @@ PrefabInstance:
 --- !u!4 &1766186728597583318 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 5496125291468275922, guid: 0b9da66922b00e64eaf3c665e053e393,
-    type: 3}
-  m_PrefabInstance: {fileID: 6108263927652594948}
-  m_PrefabAsset: {fileID: 0}
---- !u!198 &1766186728597583317 stripped
-ParticleSystem:
-  m_CorrespondingSourceObject: {fileID: 5496125291468275921, guid: 0b9da66922b00e64eaf3c665e053e393,
     type: 3}
   m_PrefabInstance: {fileID: 6108263927652594948}
   m_PrefabAsset: {fileID: 0}
