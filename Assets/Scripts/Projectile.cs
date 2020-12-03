@@ -5,7 +5,7 @@ using UnityEngine;
 public class Projectile : MonoBehaviour
 {
     Rigidbody2D rigidbody2d;
-    public Text FixedText;
+    Text FixedText;
     
     void Awake()
     {
