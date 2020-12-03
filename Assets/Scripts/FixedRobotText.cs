@@ -10,7 +10,7 @@ public class FixedRobotText : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        fixed
+        fixedRobots = 0;
     }
 
     // Update is called once per frame
