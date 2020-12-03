@@ -11,7 +11,7 @@ public class EnemyController : MonoBehaviour
     public float changeTime = 3.0f;
 
     public ParticleSystem smokeEffect;
-    
+    public 
     
     Rigidbody2D rigidbody2D;
     float timer;
