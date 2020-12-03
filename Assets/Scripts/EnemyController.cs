@@ -44,7 +44,7 @@ public class EnemyController : MonoBehaviour
         {
 
             print ("Cannot find GameController Script!");
-    }
+        }
 
     void Update()
     {
