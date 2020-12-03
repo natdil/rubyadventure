@@ -38,8 +38,8 @@ public class Projectile : MonoBehaviour
             h.Fix();
         }
 
-        FixedText.fixedRobots = FixedText.fixedRobots + 1;
-    
+            
         Destroy(gameObject);
+        
     }
 }
