@@ -5,7 +5,7 @@ using UnityEngine;
 public class Projectile : MonoBehaviour
 {
     Rigidbody2D rigidbody2d;
-    public FixedRobotText FixedText;
+    public Text FixedText;
     
     void Awake()
     {
@@ -40,7 +40,7 @@ public class Projectile : MonoBehaviour
 
             
         Destroy(gameObject);
-        
+
         FixedText.fixedRobots = FixedText.fixedRobots + 1;
     }
 }
