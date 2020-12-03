@@ -1,10 +1,11 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 
 
-public class Hard : MonoBehaviour
+public class HardEnemyScript : MonoBehaviour
 {
     public float speed;
     public bool vertical;
@@ -76,7 +77,7 @@ public class Hard : MonoBehaviour
 
         if (player != null)
         {
-            player.ChangeHealth(-1);
+            player.ChangeHealth(-2);
         }
     }
     
