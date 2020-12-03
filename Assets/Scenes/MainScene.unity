@@ -3162,7 +3162,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 27c0dbb92e15be54485bc9ecaa6ef4ac, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mask: {fileID: 0}
+  mask: {fileID: 1128132159}
 --- !u!1001 &1056525784
 PrefabInstance:
   m_ObjectHideFlags: 0
