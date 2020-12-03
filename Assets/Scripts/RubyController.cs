@@ -9,7 +9,7 @@ public class RubyController : MonoBehaviour
     
     public int maxHealth = 5;
 
-    public int 
+    public int currentScore;
     
     public GameObject projectilePrefab;
     
