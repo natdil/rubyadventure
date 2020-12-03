@@ -110,7 +110,7 @@ public class RubyController : MonoBehaviour
             invincibleTimer = timeInvincible;
             
             PlaySound(hitSound);
-            GameObject ParticleSystem = Instantiate(projectilePrefab, rigidbody2d.position + Vector2.up * 0.5f, Quaternion.identity);
+            GameObject ParticleSystem = Instantiate(damageEffect, rigidbody2d.position + Vector2.up * 0.5f, Quaternion.identity);
         }
         
         currentHealth = Mathf.Clamp(currentHealth + amount, 0, maxHealth);
