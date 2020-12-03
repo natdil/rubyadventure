@@ -12,7 +12,6 @@ GameObject:
   - component: {fileID: 3424179759812029250}
   - component: {fileID: 3424179759812029261}
   - component: {fileID: 3424179759812029260}
-  - component: {fileID: 3424179759812029248}
   - component: {fileID: 3308452363426660495}
   m_Layer: 0
   m_Name: enemy
@@ -134,23 +133,6 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 4
---- !u!114 &3424179759812029248
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3424179759812029263}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 547725331c9e8bf4b8d8cbc954e418ab, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  speed: 1
-  vertical: 0
-  changeTime: 3
-  smokeEffect: {fileID: 5496125291468275921, guid: 0b9da66922b00e64eaf3c665e053e393,
-    type: 3}
 --- !u!95 &3308452363426660495
 Animator:
   serializedVersion: 3
