@@ -7,6 +7,7 @@ public class Projectile : MonoBehaviour
 {
     Rigidbody2D rigidbody2d;
     Text FixedText;
+    int fixedcount;
     
     void Awake()
     {
