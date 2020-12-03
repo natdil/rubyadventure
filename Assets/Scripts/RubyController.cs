@@ -127,6 +127,7 @@ public class RubyController : MonoBehaviour
     public void ChangeScore(int amount)
     {
         currentScore = currentScore + 1;
+        fixedRobotsText.text = "Fixed robots: "
 
     }
     
