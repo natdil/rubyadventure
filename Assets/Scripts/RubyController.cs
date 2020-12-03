@@ -28,8 +28,8 @@ public class RubyController : MonoBehaviour
     Vector2 lookDirection = new Vector2(1,0);
     
     AudioSource audioSource;
-    
-    public ParticleSystem
+
+    public ParticleSystem damageEffect;
     
     // Start is called before the first frame update
     void Start()
