@@ -16,6 +16,6 @@ public class FixedRobotText : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        FixedText.text = "Robots are fixed yo" + fixedRobots;   
+        FixedText.text = "Robots are fixed yo " + fixedRobots;   
     }
 }
