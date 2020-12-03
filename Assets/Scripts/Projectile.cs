@@ -6,6 +6,7 @@ public class Projectile : MonoBehaviour
 {
     Rigidbody2D rigidbody2d;
     
+    
     void Awake()
     {
         rigidbody2d = GetComponent<Rigidbody2D>();
@@ -31,10 +32,10 @@ public class Projectile : MonoBehaviour
         {
             e.Fix();
         }
-         e = other.collider.GetComponent<EnemyController>();
-        if (e != null)
+        HardEnemyScript h = other.collider.GetComponent<HardEnemyScript>();
+        if (h != null)
         {
-            e.Fix();
+            h.Fix();
         }
     
         Destroy(gameObject);
