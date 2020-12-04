@@ -114,7 +114,7 @@ public class RubyController : MonoBehaviour
 
             {
 
-              speed
+              speed = 0;
             }
 
         }
