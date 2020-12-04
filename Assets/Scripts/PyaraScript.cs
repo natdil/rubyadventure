@@ -19,7 +19,7 @@ public class PyaraScript : MonoBehaviour
                 controller.ChangeHealth(1);
                 Destroy(gameObject);
             
-                controller.PlaySound(collectedClip);
+                controller.PlaySound(missionComplete);
                 
                 healthEffect.Stop();
             }
