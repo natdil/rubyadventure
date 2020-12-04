@@ -23,7 +23,6 @@ public class PyaraScript : MonoBehaviour
                 love.Stop();
         
         }
-        
 
     }
 }
