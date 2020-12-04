@@ -154,7 +154,23 @@ public class RubyController : MonoBehaviour
     }
 
     public void ChangeScore(int amount)
+    {void OnTriggerEnter2D(Collider2D kissingBooth)
     {
+        RubyController controller = kissingBooth.GetComponent<RubyController>();
+
+        if (controller != null)
+        {
+            
+        
+                Destroy(gameObject);
+            
+                controller.PlaySound(missionComplete);
+                
+                love.Stop();
+
+                currentScore = currentScore + 1;
+        
+        }
         currentScore = currentScore + 1;
         fixedRobotsText.text = "Score: " + currentScore;
         if (currentScore >= 5)
