@@ -29173,27 +29173,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 16
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &1874559864 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 8683095844414229169, guid: 3259f5ab180a9ba44b19237484e18f70,
-    type: 3}
-  m_PrefabInstance: {fileID: 8683095843714140617}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &1874559867
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1874559864}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7d539867a40a3a84a8cf3ba09f98bf61, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  missionComplete: {fileID: 8300000, guid: c80d6d19060bce448af5f63f9dff615a, type: 3}
-  love: {fileID: 7593377648967666842, guid: f5ddac04b991c4045817a71809fb9556, type: 3}
-  kissingBooth: {fileID: 1874559864}
 --- !u!1 &1914098130
 GameObject:
   m_ObjectHideFlags: 0
@@ -31542,6 +31521,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1874559867, guid: 3259f5ab180a9ba44b19237484e18f70, type: 3}
+      propertyPath: currentScore
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8683095844414229169, guid: 3259f5ab180a9ba44b19237484e18f70,
         type: 3}
       propertyPath: m_Name
@@ -31601,21 +31584,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8683095844414229171, guid: 3259f5ab180a9ba44b19237484e18f70,
-        type: 3}
-      propertyPath: m_LocalScale.x
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 8683095844414229171, guid: 3259f5ab180a9ba44b19237484e18f70,
-        type: 3}
-      propertyPath: m_LocalScale.y
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 8683095844414229171, guid: 3259f5ab180a9ba44b19237484e18f70,
-        type: 3}
-      propertyPath: m_LocalScale.z
-      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3259f5ab180a9ba44b19237484e18f70, type: 3}
