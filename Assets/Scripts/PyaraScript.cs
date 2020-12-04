@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class PyaraScript : MonoBehaviour
 {
-    public AudioClip collectedClip;
+    public AudioClip missionComplet;
     public ParticleSystem healthEffect;
     
     void OnTriggerEnter2D(Collider2D other)
