@@ -10,7 +10,7 @@ public class PyaraScript : MonoBehaviour
     
     void OnTriggerEnter2D(Collider2D kissingBooth)
     {
-        RubyController controller = other.GetComponent<RubyController>();
+        RubyController controller = kissingBooth.GetComponent<RubyController>();
 
         if (controller != null)
         {
