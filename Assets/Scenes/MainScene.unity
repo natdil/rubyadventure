@@ -31533,6 +31533,10 @@ PrefabInstance:
       propertyPath: fixedRobotsText
       value: 
       objectReference: {fileID: 1501223719}
+    - target: {fileID: 1874559867, guid: 3259f5ab180a9ba44b19237484e18f70, type: 3}
+      propertyPath: missionComplete
+      value: 
+      objectReference: {fileID: 8300000, guid: 003b6fc48ef7601408ed8ef91c4a1437, type: 3}
     - target: {fileID: 8683095844414229169, guid: 3259f5ab180a9ba44b19237484e18f70,
         type: 3}
       propertyPath: m_Name
