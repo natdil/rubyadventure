@@ -14,7 +14,7 @@ public class PyaraScript : MonoBehaviour
 
         if (controller != null)
         {
-            if (OnTriggerEnter2D(Collider2))
+            if (OnTriggerEnter2D(Collider2D))
             {
                 Destroy(gameObject);
             
