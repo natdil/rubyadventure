@@ -101,7 +101,7 @@ public class RubyController : MonoBehaviour
             Application.Quit();
         }
 
-         if (Input.GetKey(KeyCode.R))
+         if (Input.GetKeyDown(KeyCode.R))
         {
 
             if (gameOver == true)
