@@ -14,7 +14,7 @@ public class PyaraScript : MonoBehaviour
 
         if (controller != null)
         {
-            if (controller.health < controller.maxHealth)
+            if (On)
             {
                 Destroy(gameObject);
             
