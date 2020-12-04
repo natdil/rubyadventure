@@ -23,7 +23,7 @@ public class PyaraScript : MonoBehaviour
                 
                 love.Stop();
 
-                curren
+                currentScore = current
         
         }
 
