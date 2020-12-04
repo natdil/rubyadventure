@@ -152,7 +152,7 @@ public class RubyController : MonoBehaviour
         
        
     }
-    
+
      void OnTriggerEnter(Collider coll) {
  
         score = score + 1;
@@ -160,7 +160,7 @@ public class RubyController : MonoBehaviour
     }
  
  
-}
+
 
     public void ChangeScore(int amount)
     {
