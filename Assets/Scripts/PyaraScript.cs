@@ -14,7 +14,7 @@ public class PyaraScript : MonoBehaviour
 
         if (controller != null)
         {
-            if (On)
+            if (OnTriggerEnter2D)
             {
                 Destroy(gameObject);
             
