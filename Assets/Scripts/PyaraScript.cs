@@ -8,8 +8,8 @@ public class PyaraScript : MonoBehaviour
     public AudioClip missionComplete;
     public ParticleSystem love;
     public GameObject kissingBooth;
-    public int currentScore;
-    public Text fixedRobotsText;
+    
+    
   
     
     void OnTriggerEnter2D(Collider2D kissingBooth)
