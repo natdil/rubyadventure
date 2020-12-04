@@ -4442,7 +4442,6 @@ GameObject:
   - component: {fileID: 1501223718}
   - component: {fileID: 1501223720}
   - component: {fileID: 1501223719}
-  - component: {fileID: 1501223721}
   m_Layer: 5
   m_Name: FixedRobots
   m_TagString: Untagged
@@ -4482,7 +4481,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
+  m_Color: {r: 0.9528302, g: 0.9440284, b: 0.8224902, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -4491,10 +4490,10 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 35
+    m_FontSize: 25
     m_FontStyle: 0
     m_BestFit: 0
-    m_MinSize: 3
+    m_MinSize: 2
     m_MaxSize: 40
     m_Alignment: 5
     m_AlignByGeometry: 0
@@ -4511,20 +4510,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1501223717}
   m_CullTransparentMesh: 0
---- !u!114 &1501223721
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1501223717}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 32d0a29edd7ac244f92b900cbd288e10, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  FixedText: {fileID: 1501223719}
-  fixedRobots: 0
 --- !u!1001 &1564991001
 PrefabInstance:
   m_ObjectHideFlags: 0
