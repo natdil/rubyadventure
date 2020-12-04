@@ -28,7 +28,23 @@ public class HardEnemyScript : MonoBehaviour
         timer = changeTime;
         animator = GetComponent<Animator>();
         GameObject rubyControllerObject = GameObject.FindWithTag("RubyController");
-        
+        if (rubyControllerObject != null)
+
+        {
+
+            rubyController = rubyControllerObject.GetComponent<RubyController>(); //and this line of code finds the rubyController and then stores it in a variable
+
+            print ("Found the RubyConroller Script!");
+
+        }
+
+        if (rubyController == null)
+
+        {
+
+            print ("Cannot find GameController Script!");
+
+        }
     }
 
 
