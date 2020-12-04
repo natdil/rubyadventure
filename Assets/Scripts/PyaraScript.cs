@@ -14,9 +14,11 @@ public class PyaraScript : MonoBehaviour
 
         if (controller != null)
         {
-            if (Input.GetKeyDown(KeyCode.K))
+            if (controller.health < controller.maxHealth)
             {
-                
+                controller.ChangeHealth(1);
+                Destroy(gameObject);
+            
                 controller.PlaySound(missionComplete);
                 
                 love.Stop();
