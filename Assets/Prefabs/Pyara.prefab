@@ -144,7 +144,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7d539867a40a3a84a8cf3ba09f98bf61, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  missionComplete: {fileID: 0}
+  missionComplete: {fileID: 8300000, guid: c80d6d19060bce448af5f63f9dff615a, type: 3}
   love: {fileID: 3373651334725391222}
   kissingBooth: {fileID: 8683095844414229169, guid: 3259f5ab180a9ba44b19237484e18f70,
     type: 3}
