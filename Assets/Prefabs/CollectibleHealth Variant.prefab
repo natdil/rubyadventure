@@ -12,6 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f4aea55a069e46c4eb591331b2b81de8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  collectedClip: {fileID: 8300000, guid: 2ccdd6681ab235b4797af1ab1692c4a9, type: 3}
+  healthEffect: {fileID: 0}
 --- !u!1001 &1331810654725246985
 PrefabInstance:
   m_ObjectHideFlags: 0
