@@ -109,6 +109,8 @@ MonoBehaviour:
     type: 3}
   throwSound: {fileID: 8300000, guid: 3624f69d4b22bdd42860eecbb359eabf, type: 3}
   hitSound: {fileID: 8300000, guid: 4fd5c22b7b3ff4442b71cc525ebda32f, type: 3}
+  deathSound: {fileID: 8300000, guid: 3503561272ac4bb40877fac775da379a, type: 3}
+  winSound: {fileID: 0}
   kissingBooth: {fileID: 8683095844414229169, guid: 3259f5ab180a9ba44b19237484e18f70,
     type: 3}
   timeInvincible: 2
