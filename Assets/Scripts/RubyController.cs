@@ -153,7 +153,7 @@ public class RubyController : MonoBehaviour
        
     }
 
-     void OnTriggerEnter(Collider2D kissingBooth)
+     void OnTriggerEnter2D(Collider2D kissingBooth)
         {
  
         currentScore = currentScore + 1;
