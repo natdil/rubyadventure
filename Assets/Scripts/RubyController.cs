@@ -145,7 +145,7 @@ public class RubyController : MonoBehaviour
         UIHealthBar.instance.SetValue(currentHealth / (float)maxHealth);
         if (currentHealth <= 0)
         {
-            loseText.text = "Whoops! She is dead";
+            loseText.text = "Whoops! She is dead :/";
         }
         
        
