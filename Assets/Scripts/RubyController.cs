@@ -161,6 +161,9 @@ public class RubyController : MonoBehaviour
         {
             winText.text = "You Did It! Game built by Natalie Dilbeck";
             if (OnTriggerEnter2D(Collider2D kissingBooth))
+            {
+                
+            }
         }
         
 
