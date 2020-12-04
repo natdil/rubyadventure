@@ -115,7 +115,7 @@ public class RubyController : MonoBehaviour
               speed = 0;
             }
 
-        }
+        
     }
     
     void FixedUpdate()
