@@ -80,7 +80,7 @@ public class RubyController : MonoBehaviour
         }
         if (gameOver)
         {
-            
+            if
         }
         if(Input.GetKeyDown(KeyCode.C))
         {
