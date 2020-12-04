@@ -133,7 +133,6 @@ public class RubyController : MonoBehaviour
         }
         
         if (Input.GetKey(KeyCode.R))
-
         {
 
             if (gameOver == true)
