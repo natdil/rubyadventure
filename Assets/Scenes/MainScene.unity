@@ -4757,7 +4757,11 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: Go Kiss Pyara!
+  m_Text: '1. Talk to Jambi
+
+    2. Kiss Pyara
+
+    3. Fix Robots'
 --- !u!222 &1501223720
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -31525,6 +31529,10 @@ PrefabInstance:
       propertyPath: currentScore
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1874559867, guid: 3259f5ab180a9ba44b19237484e18f70, type: 3}
+      propertyPath: fixedRobotsText
+      value: 
+      objectReference: {fileID: 1501223719}
     - target: {fileID: 8683095844414229169, guid: 3259f5ab180a9ba44b19237484e18f70,
         type: 3}
       propertyPath: m_Name
