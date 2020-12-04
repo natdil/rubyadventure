@@ -160,10 +160,7 @@ public class RubyController : MonoBehaviour
         RubyController controller = kissingBooth.GetComponent<RubyController>();
 
         if (controller != null)
-        {
-            
-        
-                Destroy(gameObject);
+    {}
 
                 currentScore = currentScore + 1;
         
