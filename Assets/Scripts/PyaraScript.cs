@@ -21,7 +21,7 @@ public class PyaraScript : MonoBehaviour
             
                 controller.PlaySound(missionComplete);
                 
-                healthEffect.Stop();
+                love.Stop();
             }
         }
 
