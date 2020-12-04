@@ -158,7 +158,7 @@ public class RubyController : MonoBehaviour
  
         score = score + 1;
  
-    }
+        }
  
 
     public void ChangeScore(int amount)
