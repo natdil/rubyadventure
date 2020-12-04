@@ -114,7 +114,7 @@ public class RubyController : MonoBehaviour
 
             {
 
-              SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+              setSpeed
 
             }
 
