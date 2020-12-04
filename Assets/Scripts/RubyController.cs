@@ -155,7 +155,14 @@ public class RubyController : MonoBehaviour
 
     public void ChangeScore(int amount)
     {
-        kissingBooth = currentScore +1;
+        void OnTriggerEnter(Collider coll) {
+ 
+        score = score + 1;
+ 
+    }
+ 
+ 
+}
         currentScore = currentScore + 1;
         fixedRobotsText.text = "Score: " + currentScore;
         if (currentScore >= 5)
