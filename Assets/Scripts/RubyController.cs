@@ -10,7 +10,7 @@ public class RubyController : MonoBehaviour
     public int maxHealth = 5;
 
     public Text fixedRobotsText;
-    
+    public Text 
 
     public int currentScore;
     
