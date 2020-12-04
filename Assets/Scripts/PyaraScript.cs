@@ -8,7 +8,7 @@ public class PyaraScript : MonoBehaviour
     public ParticleSystem love;
     public GameObject kissingBooth;
     public int currentScore;
-    public Text
+    public text 
     
     void OnTriggerEnter2D(Collider2D kissingBooth)
     {
