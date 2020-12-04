@@ -12,7 +12,7 @@ public class RubyController : MonoBehaviour
     public Text fixedRobotsText;
     public Text winText;
     public Text loseText;
-    public int gameOver = R;
+    public int gameOver = KeyCode.R;
 
     public int currentScore;
     
@@ -99,7 +99,7 @@ public class RubyController : MonoBehaviour
         {
             Application.Quit();
         }
-        
+
          if (Input.GetKey(KeyCode.R))
         {
 
