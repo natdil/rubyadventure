@@ -5,7 +5,7 @@ using UnityEngine;
 public class PyaraScript : MonoBehaviour
 {
     public AudioClip missionComplete;
-    public ParticleSystem healthEffect;
+    public ParticleSystem love;
     
     void OnTriggerEnter2D(Collider2D other)
     {
