@@ -154,7 +154,8 @@ public class RubyController : MonoBehaviour
     }
 
     public void ChangeScore(int amount)
-    {void OnTriggerEnter2D(Collider2D kissingBooth)
+    {
+        void OnTriggerEnter2D(Collider2D kissingBooth)
     {
         RubyController controller = kissingBooth.GetComponent<RubyController>();
 
