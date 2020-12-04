@@ -12,7 +12,7 @@ public class RubyController : MonoBehaviour
     public Text fixedRobotsText;
     public Text winText;
     public Text loseText;
-    public int gameOver = r;
+    public int gameOver = R;
 
     public int currentScore;
     
