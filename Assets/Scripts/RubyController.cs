@@ -163,10 +163,6 @@ public class RubyController : MonoBehaviour
             
         
                 Destroy(gameObject);
-            
-            
-                
-                love.Stop();
 
                 currentScore = currentScore + 1;
         
