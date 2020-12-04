@@ -28,7 +28,9 @@ public class HardEnemyScript : MonoBehaviour
         timer = changeTime;
         animator = GetComponent<Animator>();
         GameObject rubyControllerObject = GameObject.FindWithTag("RubyController");
+        
     }
+
 
     void Update()
     {
