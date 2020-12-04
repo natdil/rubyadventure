@@ -101,10 +101,16 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 3
   maxHealth: 5
+  fixedRobotsText: {fileID: 0}
+  winText: {fileID: 0}
+  loseText: {fileID: 0}
+  currentScore: 0
   projectilePrefab: {fileID: 6696548187912368497, guid: 6f4503fdc27a20c46a874d8c98a9fc40,
     type: 3}
   throwSound: {fileID: 8300000, guid: 3624f69d4b22bdd42860eecbb359eabf, type: 3}
   hitSound: {fileID: 8300000, guid: 4fd5c22b7b3ff4442b71cc525ebda32f, type: 3}
+  kissingBooth: {fileID: 8683095844414229169, guid: 3259f5ab180a9ba44b19237484e18f70,
+    type: 3}
   timeInvincible: 2
   damageEffect: {fileID: 5438228644634266034}
 --- !u!50 &803899377543589138
