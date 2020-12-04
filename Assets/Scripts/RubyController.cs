@@ -160,6 +160,7 @@ public class RubyController : MonoBehaviour
         if (currentScore >= 4)
         {
             winText.text = "You Did It! Game built by Natalie Dilbeck";
+            if ()
         }
         
 
