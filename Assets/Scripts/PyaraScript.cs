@@ -6,7 +6,7 @@ public class PyaraScript : MonoBehaviour
 {
     public AudioClip missionComplete;
     public ParticleSystem love;
-    public GameObject
+    public GameObject kissingBooth;
     
     void OnTriggerEnter2D(Collider2D other)
     {
