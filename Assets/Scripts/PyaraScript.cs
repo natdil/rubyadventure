@@ -26,7 +26,7 @@ public class PyaraScript : MonoBehaviour
                 
                 love.Stop();
 
-                pyaraKissed = ;
+                pyaraKissed = true;
         
         }
 
