@@ -146,6 +146,7 @@ public class RubyController : MonoBehaviour
         if (currentHealth <= 0)
         {
             loseText.text = "Whoops! She is dead :/";
+            speed = 0;
         }
         
        
