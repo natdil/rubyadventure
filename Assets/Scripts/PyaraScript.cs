@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class HealthCollectible : MonoBehaviour
+public class Pyara : MonoBehaviour
 {
     public AudioClip collectedClip;
     public ParticleSystem healthEffect;
