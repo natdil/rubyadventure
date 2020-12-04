@@ -21,6 +21,8 @@ public class RubyController : MonoBehaviour
     
     public AudioClip throwSound;
     public AudioClip hitSound;
+    public AudioClip deathsound;
+    
     public GameObject kissingBooth;
     
     public int health { get { return currentHealth; }}
