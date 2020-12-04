@@ -145,7 +145,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   missionComplete: {fileID: 0}
-  love: {fileID: 0}
+  love: {fileID: 3373651334725391222}
   kissingBooth: {fileID: 0}
 --- !u!1001 &5165776924241272812
 PrefabInstance:
@@ -224,6 +224,12 @@ PrefabInstance:
 --- !u!4 &6926767709168625108 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 2850871155381500472, guid: f5ddac04b991c4045817a71809fb9556,
+    type: 3}
+  m_PrefabInstance: {fileID: 5165776924241272812}
+  m_PrefabAsset: {fileID: 0}
+--- !u!198 &3373651334725391222 stripped
+ParticleSystem:
+  m_CorrespondingSourceObject: {fileID: 7593377648967666842, guid: f5ddac04b991c4045817a71809fb9556,
     type: 3}
   m_PrefabInstance: {fileID: 5165776924241272812}
   m_PrefabAsset: {fileID: 0}
