@@ -126,7 +126,7 @@ public class RubyController : MonoBehaviour
         currentHealth = Mathf.Clamp(currentHealth + amount, 0, maxHealth);
         
         UIHealthBar.instance.SetValue(currentHealth / (float)maxHealth);
-        if ()
+        if (currentHealth <=)
     }
 
     public void ChangeScore(int amount)
