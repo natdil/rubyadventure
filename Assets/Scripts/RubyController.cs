@@ -130,6 +130,19 @@ public class RubyController : MonoBehaviour
         {
             loseText.text = "Whoops! Press R to Retry";
         }
+        if (Input.GetKey(KeyCode.R))
+
+        {
+
+            if (gameOver == true)
+
+            {
+
+              SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex); // this loads the currently active scene
+
+            }
+
+        }
     }
 
     public void ChangeScore(int amount)
