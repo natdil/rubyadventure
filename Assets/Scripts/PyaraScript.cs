@@ -10,6 +10,7 @@ public class PyaraScript : MonoBehaviour
     public GameObject kissingBooth;
     public int currentScore;
     public Text fixedRobotsText;
+    public int 
     
     void OnTriggerEnter2D(Collider2D kissingBooth)
     {
