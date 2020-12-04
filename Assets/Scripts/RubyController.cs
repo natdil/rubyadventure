@@ -153,7 +153,8 @@ public class RubyController : MonoBehaviour
        
     }
 
-     void OnTriggerEnter(Collider coll) {
+     void OnTriggerEnter(Collider coll)
+      {
  
         score = score + 1;
  
