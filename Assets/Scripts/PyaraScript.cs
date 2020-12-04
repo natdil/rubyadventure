@@ -16,7 +16,6 @@ public class PyaraScript : MonoBehaviour
         {
             if (controller.health < controller.maxHealth)
             {
-                
                 Destroy(gameObject);
             
                 controller.PlaySound(missionComplete);
