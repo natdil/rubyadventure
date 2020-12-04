@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 883014358247608761}
   - component: {fileID: 7265803063786314860}
   - component: {fileID: 355514443657094525}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Pyara
   m_TagString: Untagged
   m_Icon: {fileID: 0}
