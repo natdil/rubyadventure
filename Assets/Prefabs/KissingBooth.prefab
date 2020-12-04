@@ -10,6 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8683095844414229171}
   - component: {fileID: 8683095844414229168}
+  - component: {fileID: 1874559867}
   m_Layer: 0
   m_Name: KissingBooth
   m_TagString: Untagged
@@ -24,9 +25,9 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8683095844414229169}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -0.17597473, y: -0.5919115, z: -9.691216}
-  m_LocalScale: {x: 1.5997614, y: 1.5997614, z: 1.5997614}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
@@ -57,3 +58,20 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
+--- !u!114 &1874559867
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8683095844414229169}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7d539867a40a3a84a8cf3ba09f98bf61, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  missionComplete: {fileID: 8300000, guid: c80d6d19060bce448af5f63f9dff615a, type: 3}
+  love: {fileID: 7593377648967666842, guid: f5ddac04b991c4045817a71809fb9556, type: 3}
+  kissingBooth: {fileID: 8683095844414229169}
+  currentScore: 1
+  fixedRobotsText: {fileID: 0}
