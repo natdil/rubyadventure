@@ -8,7 +8,7 @@ public class PyaraScript : MonoBehaviour
     public ParticleSystem love;
     public GameObject kissingBooth;
     
-    void OnTriggerEnter2D(Collider2D otherkissing)
+    void OnTriggerEnter2D(Collider2D otherkissingBooth)
     {
         RubyController controller = other.GetComponent<RubyController>();
 
