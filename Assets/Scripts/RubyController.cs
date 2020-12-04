@@ -99,6 +99,7 @@ public class RubyController : MonoBehaviour
         {
             Application.Quit();
         }
+        
          if (Input.GetKey(KeyCode.R))
         {
 
