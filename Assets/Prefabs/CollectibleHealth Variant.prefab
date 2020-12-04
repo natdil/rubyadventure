@@ -112,5 +112,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: CollectibleHealth Variant
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 2494063841001745063, guid: 3ffb60d0c0b71d2498aa7b463c39fd41, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 3ffb60d0c0b71d2498aa7b463c39fd41, type: 3}
