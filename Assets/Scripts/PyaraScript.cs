@@ -14,7 +14,7 @@ public class PyaraScript : MonoBehaviour
 
         if (controller != null)
         {
-            if (controller.health < controller.maxHealth)
+            if if (Input.GetKeyDown(KeyCode.X))
             {
                 
                 controller.PlaySound(missionComplete);
