@@ -13,7 +13,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   collectedClip: {fileID: 8300000, guid: 2ccdd6681ab235b4797af1ab1692c4a9, type: 3}
-  healthEffect: {fileID: 0}
+  healthEffect: {fileID: 3818358934706641766, guid: 89bb8b619e05b49498c8c61ad503e6c2,
+    type: 3}
 --- !u!1001 &1331810654725246985
 PrefabInstance:
   m_ObjectHideFlags: 0
