@@ -96,7 +96,7 @@ public class RubyController : MonoBehaviour
             }
         }
 
-         if (Input.GetKeyDown("escape"))
+         if (Input.GetKey("escape"))
         {
             Application.Quit();
         }
