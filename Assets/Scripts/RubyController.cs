@@ -156,7 +156,7 @@ public class RubyController : MonoBehaviour
      void OnTriggerEnter(Collider coll)
         {
  
-        currentScore = score + 1;
+        currentScore = currentScore + 1;
  
         }
  
