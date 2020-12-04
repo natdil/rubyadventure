@@ -28,7 +28,7 @@ public class HardEnemyScript : MonoBehaviour
         timer = changeTime;
         animator = GetComponent<Animator>();
         GameObject rubyControllerObject = GameObject.FindWithTag("RubyController");
-        
+
         if (rubyControllerObject != null)
 
         {
@@ -111,5 +111,6 @@ public class HardEnemyScript : MonoBehaviour
         animator.SetTrigger("Fixed");
         
         smokeEffect.Stop();
+        
     }
 }
