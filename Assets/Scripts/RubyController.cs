@@ -51,6 +51,7 @@ public class RubyController : MonoBehaviour
         audioSource = GetComponent<AudioSource>();
         winText.text = " ";
         loseText.text = " ";
+        g
     }
 
     // Update is called once per frame
