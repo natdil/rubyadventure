@@ -81,7 +81,7 @@ public class RubyController : MonoBehaviour
         if (gameOver)
         {
             if (currentHealth <= 0)
-                gamerOver = true;
+                gameOver = true;
         }
         if(Input.GetKeyDown(KeyCode.C))
         {
