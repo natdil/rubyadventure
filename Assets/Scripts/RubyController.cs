@@ -150,7 +150,7 @@ public class RubyController : MonoBehaviour
         {
             loseText.text = "Whoops! She is dead :/";
             speed = 0;
-            
+            PlaySound(deathSound);
         }
         
        
