@@ -26,6 +26,7 @@ public class PyaraScript : MonoBehaviour
                 
                 love.Stop();
                 if (controller.PlaySound(missionComplete))
+                {
                 pyaraKissed = true;
         
         }
