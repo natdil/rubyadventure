@@ -111,7 +111,6 @@ public class RubyController : MonoBehaviour
             if (gameOver == true)
 
             {
-
               speed = 0;
             }
 
