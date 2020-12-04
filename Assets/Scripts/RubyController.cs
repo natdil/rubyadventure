@@ -171,6 +171,7 @@ public class RubyController : MonoBehaviour
         if (currentScore >= 7)
         {
             winText.text = "You Did It! Game built by Natalie Dilbeck";
+            PlaySound
            
         }
         
