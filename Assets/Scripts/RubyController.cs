@@ -169,7 +169,7 @@ public class RubyController : MonoBehaviour
        
         currentScore = currentScore + 1;
         fixedRobotsText.text = "Score: " + currentScore;
-        if (currentScore >= 6)
+        if (currentScore >= 5)
         {
             winText.text = "You Did It! Game built by Natalie Dilbeck";
             PlaySound(winSound);
