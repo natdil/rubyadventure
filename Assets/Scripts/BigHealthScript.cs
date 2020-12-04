@@ -15,7 +15,7 @@ public class BigHealthScript : MonoBehaviour
         {
             if (controller.health < controller.maxHealth)
             {
-                controller.ChangeHealth(1);
+                controller.ChangeHealth(3);
                 Destroy(gameObject);
             
                 controller.PlaySound(collectedClip);
