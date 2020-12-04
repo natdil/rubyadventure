@@ -11,6 +11,7 @@ public class RubyController : MonoBehaviour
 
     public Text fixedRobotsText;
     public Text winText;
+    public Text 
 
     public int currentScore;
     
