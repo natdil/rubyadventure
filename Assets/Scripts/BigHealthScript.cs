@@ -1,4 +1,4 @@
-﻿public class HealthCollectible : MonoBehaviour
+﻿public class BigHealthScript : MonoBehaviour
 {
     public AudioClip collectedClip;
     public ParticleSystem healthEffect;
