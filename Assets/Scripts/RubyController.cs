@@ -164,7 +164,7 @@ public class RubyController : MonoBehaviour
         
                 Destroy(gameObject);
             
-                controller.PlaySound(missionComplete);
+            
                 
                 love.Stop();
 
