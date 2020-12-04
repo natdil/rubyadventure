@@ -21,7 +21,7 @@ public class RubyController : MonoBehaviour
     
     public AudioClip throwSound;
     public AudioClip hitSound;
-    public AudioClip deathsound;
+    public AudioClip deathSound;
     public AudioClip winSound;
     public GameObject kissingBooth;
     
