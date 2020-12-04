@@ -99,6 +99,18 @@ public class RubyController : MonoBehaviour
         {
             Application.Quit();
         }
+         if (Input.GetKey(KeyCode.R))
+        {
+
+            if (gameOver == true)
+
+            {
+
+              SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+
+            }
+
+        }
     }
     
     void FixedUpdate()
