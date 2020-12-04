@@ -13,7 +13,7 @@ public class RubyController : MonoBehaviour
     public Text winText;
     public Text loseText;
     bool gameOver;
-    public class SceneManager;
+    class SceneManager;
 
     public int currentScore;
     
