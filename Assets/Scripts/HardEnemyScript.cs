@@ -12,7 +12,7 @@ public class HardEnemyScript : MonoBehaviour
     public float changeTime = 3.0f;
 
     public ParticleSystem smokeEffect;
-     GameObject rubyControllerObject = GameObject.FindWithTag("RubyController");
+      private RubyController rubyController;ontrollerObject = GameObject.FindWithTag("RubyController");
     
     Rigidbody2D rigidbody2D;
     float timer;
