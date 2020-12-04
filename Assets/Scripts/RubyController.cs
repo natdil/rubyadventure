@@ -155,7 +155,7 @@ public class RubyController : MonoBehaviour
 
     public void ChangeScore(int amount)
     {
-        kissingBooth = ente
+        kissingBooth = des
         currentScore = currentScore + 1;
         fixedRobotsText.text = "Score: " + currentScore;
         if (currentScore >= 5)
