@@ -73,5 +73,5 @@ MonoBehaviour:
   missionComplete: {fileID: 8300000, guid: c80d6d19060bce448af5f63f9dff615a, type: 3}
   love: {fileID: 7593377648967666842, guid: f5ddac04b991c4045817a71809fb9556, type: 3}
   kissingBooth: {fileID: 8683095844414229169}
-  currentScore: 1
+  currentScore: 0
   fixedRobotsText: {fileID: 0}
