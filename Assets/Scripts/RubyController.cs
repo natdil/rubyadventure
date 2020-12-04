@@ -160,7 +160,7 @@ public class RubyController : MonoBehaviour
         RubyController controller = kissingBooth.GetComponent<RubyController>();
 
         if (controller != null)
-    {}
+    {
 
                 currentScore = currentScore + 1;
         
