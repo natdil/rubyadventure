@@ -157,7 +157,7 @@ public class RubyController : MonoBehaviour
     {
         currentScore = currentScore + 1;
         fixedRobotsText.text = "Fixed robots: " + currentScore;
-        if (currentScore >= 4)
+        if (currentScore >= 5)
         {
             winText.text = "You Did It! Game built by Natalie Dilbeck";
            
