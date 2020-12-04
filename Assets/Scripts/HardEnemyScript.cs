@@ -111,6 +111,6 @@ public class HardEnemyScript : MonoBehaviour
         animator.SetTrigger("Fixed");
         
         smokeEffect.Stop();
-        RubyController.ChangeScore(1);
+        rubyController.ChangeScore(1);
     }
 }
