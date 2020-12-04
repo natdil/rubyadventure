@@ -146,7 +146,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   missionComplete: {fileID: 0}
   love: {fileID: 3373651334725391222}
-  kissingBooth: {fileID: 0}
+  kissingBooth: {fileID: 8683095844414229169, guid: 3259f5ab180a9ba44b19237484e18f70,
+    type: 3}
 --- !u!1001 &5165776924241272812
 PrefabInstance:
   m_ObjectHideFlags: 0
