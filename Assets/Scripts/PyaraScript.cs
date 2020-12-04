@@ -30,10 +30,4 @@ public class PyaraScript : MonoBehaviour
     
 
     }
-
-     public void ChangeScore(int amount)
-    {
-        fixedRobotsText.text = "Score: " + currentScore;
-        currentScore = currentScore + 1;
-    }
 }
